@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b8702983c4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="images/bmw-logo.png">
+
+</head>
+
+
+<body>
+    <!--Nav bar container-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <img src="images/bmw-logo.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+                Forza BMW</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="models.html">Models</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="buildyourown.html">Build Your Own</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Shopping
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Accessories</a></li>
+                            <li><a class="dropdown-item" href="#">Tools</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Test Drive</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit"><i
+                            class="fa-solid fa-magnifying-glass fa-0.5x" style="color: #46d043;"></i>Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+ <!--CarTable-->
+ <section id="Table">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Model</th>
+                <th scope="col">Engine</th>
+                <th scope="col">Horse power</th>
+                <th scope="col">Top Speed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">
+                    <img src="https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=24XQ&client=byo&paint=P0C1M&fabric=FKHSW&sa=S01X8,S0255,S02TB,S0302,S0319,S03AG,S0420,S0423,S0430,S0431,S0459,S0481,S0493,S04K1,S04U0,S04UR,S0508,S0534,S0552,S05AC,S05AS,S05AV,S0676,S06AC,S06AK,S06C4,S06U2,S0775&quality=90&bkgnd=%23f6f6f6&width=600&height=300&w=9800&h=8000&x=180&y=-300&resp=jpg&angle=270"
+                        class="img-thumbnail w-30 h-10" alt="...">
+                    BMW X3
+                </th>
+                <td>V6 engine</td>
+                <td>350</td>
+                <td>150 mph</td>
+            </tr>
+            <tr>
+                <th scope="row">
+
+                    <img src="https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=24XG&client=byoc&paint=P0C4W&fabric=FKPSW&sa=S01CE,S01W7,S0255,S02TB,S0302,S0319,S0322,S03AT,S03MB,S0402,S0420,S0423,S0459,S0481,S0494,S04FL,S04KR,S04T8,S04UR,S05AC,S05AS,S05DM,S0676,S06AC,S06AK,S06C4,S06CP,S06NX,S06U2,S0775&date=20230404&quality=90&bkgnd=%23f6f6f6&resp=png&angle=270&width=600&height=300&w=9800&h=8000&x=180&y=500"
+                        class="img-thumbnail w-30 h-10" alt="...">
+                    BMW X5
+                </th>
+                <td>V8 engine</td>
+                <td>625</td>
+                <td>160 mph</td>
+            </tr>
+            <tr>
+                <th scope="row">
+
+                    <img src="https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=245A&client=byo&paint=P0300&fabric=FKSSW&sa=S01CE,S02TE,S0302,S0316,S0319,S0322,S03G2,S0403,S043L,S0459,S04FL,S05AS,S05DM,S0674,S06AC,S06AK,S06C4,S06NX,S0775&quality=90&bkgnd=%23f6f6f6&width=600&height=300&w=9800&h=8000&x=180&y=-300&resp=jpg&angle=270"
+                        class="img-thumbnail w-30 h-10" alt="...">
+                    BMW 5
+                </th>
+                <td>Electric/Hybrid/V8 engine</td>
+                <td>800</td>
+                <td>170 mph</td>
+            </tr>
+
+
+            <tr>
+                <th scope="row">
+                    <img src="https://cache.bmwusa.com/cosy.arox?pov=walkaround&brand=WBBM&vehicle=243Y&client=byo&paint=P0C3Z&fabric=FKHSW&sa=S01CB,S01G4,S0255,S02TB,S0302,S0319,S03AG,S03MB,S0403,S0430,S0431,S0459,S0465,S0481,S0493,S04KA,S04UR,S0534,S0544,S05AC,S0676,S06AC,S06AK,S06C4,S06U2,S06WC,S0775&quality=90&bkgnd=%23f6f6f6&width=600&height=300&w=9800&h=8000&x=180&y=-300&resp=jpg&angle=270"
+                        class="img-thumbnail w-30 h-10" alt="...">
+                    BMW 3
+                </th>
+                <td>V6 engine</td>
+                <td>340</td>
+                <td>155 mph</td>
+            </tr>
+
+           
+        </tbody>
+    </table>
+
+</section>
+
+
+
+<!--Features-->
+<section id="features">
+
+    <div class="row">
+
+        <div class="feature-box col-lg-3">
+            <i class="fa-solid fa-car fa-10x icon"></i>
+            <h3>Trade-In Value</h3>
+            <p>Get the latest information on your vehicles trade-in value today. </p>
+            <a href="#" class="link-primary">Visit Black Book</a>
+        </div>
+        <div class="feature-box col-lg-3">
+            <i class="fa-solid fa-credit-card fa-10x icon"></i>
+            <h3>Check Your Credit Score</h3>
+            <p>See where you stand on your journey to owning a BMW.</p>
+            <a href="#" class="link-primary">Visit Equifax </a>
+        </div>
+        <div class="feature-box col-lg-3">
+            <i class="fa-solid fa-coins fa-10x icon"></i>
+            <h3>Apply for Financing</h3>
+            <p>Own the BMW of your dreams with BMW Financial Services.</p>
+            <a href="#" class="link-primary">Get Started </a>
+        </div>
+        <div class="feature-box col-lg-3">
+            <i class="fa-solid fa-envelope fa-10x icon"></i>
+            <h3>Stay Connected</h3>
+            <p> Receive the latest offers, releases, and news from BMW.</p>
+            <a href="#" class="link-primary">Sign Up Now</a>
+        </div>
+
+
+
+    </div>
+
+
+
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>
